@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Nick para Minecraft</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main class="container">
+        <header>
+            <h1>Gerador de Nick para Minecraft</h1>
+            <p>Crie um nick único e verifique a disponibilidade instantaneamente.</p>
+        </header>
+
+        <section class="controls">
+            <label for="length-slider">Quantidade de Letras: <span id="length-value">8</span></label>
+            <input type="range" id="length-slider" min="3" max="16" value="8">
+        </section>
+
+        <button id="generate-btn">Gerar Nick</button>
+
+        <section id="result-container">
+            <h2 id="generated-nick">Seu Nick Aparecerá Aqui</h2>
+            <p id="status-text">Clique em "Gerar Nick" para começar</p>
+        </section>
+
+        <footer>
+            <p>Desenvolvido com ❤️ | <a href="https://github.com/SEU-USUARIO" target="_blank">Seu GitHub</a></p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
